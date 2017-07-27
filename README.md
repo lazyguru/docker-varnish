@@ -12,7 +12,7 @@ docker run -d \
   --link web-app:backend-host \
   --volumes-from web-app \
   --env 'VCL_CONFIG=/data/path/to/varnish.vcl' \
-  million12/varnish
+  lazyguru/varnish
 ```
 
 In the above example we assume that:
